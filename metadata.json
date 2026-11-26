@@ -1,0 +1,6 @@
+{
+  "name": "VIA",
+  "description": "VIA – VIP Intelligent Assistant developed by VIP Studios And Creations. Your Personal AI Assistant with Gemini AI, voice, background wake word, device controls, and multilingual support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,11 +1,20 @@
-<div align="center">
+# VIA - VIP Intelligent Assistant (Stage 1)
+Your Personal AI Assistant. By VIP Studios & Creations.
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Native Android app (Kotlin, Jetpack Compose, Material 3).
 
-  <h1>Built with AI Studio</h2>
+## Stage 1 status
+Implemented (written, NOT yet compiled or tested on a phone):
+dashboard, chat, voice in/out (Android speech engines), phone command system, memory/notes/tasks,
+command history, settings (language, theme, backend address), AdMob adaptive banner with TEST ids,
+foreground-service shell, GitHub Actions build.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+NOT implemented yet: "Hey VIA" detection, cloud backend, OpenJarvis integration, internet search,
+PDF/document analysis, login, consent form (UMP), signed release APK.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Build
+Push to GitHub. Actions tab -> "Build VIA APK" -> download the `VIA-debug-apk` artifact.
 
-</div>
+## Licence note
+OpenJarvis (github.com/open-jarvis/OpenJarvis) is not included yet. When integrated in Stage 2,
+its licence and attribution will be preserved.
